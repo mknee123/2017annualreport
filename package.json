@@ -1,0 +1,36 @@
+{
+  "name": "annualreport2017",
+  "version": "1.0.0",
+  "description": "The Allegheny Conference's 2017 Annual Report",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server web/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mknee123/annualreport2017.git"
+  },
+  "keywords": [
+    "Allegheny",
+    "Conference",
+    "Annual",
+    "Report",
+    "2017"
+  ],
+  "author": "Miranda Knee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mknee123/annualreport2017/issues"
+  },
+  "homepage": "https://github.com/mknee123/annualreport2017#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.1",
+    "jquery": "^3.3.1",
+    "live-server": "^1.2.0"
+  }
+}
