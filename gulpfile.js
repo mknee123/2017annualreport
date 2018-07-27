@@ -4,6 +4,18 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     minifyCSS = require('gulp-minify-css');
 
+
+var browserSync = require('browser-sync').create();
+var reload = browserSync.reload;
+
+gulp.task('browser-sync', function() {
+    browserSync.init({
+          proxy: 'http://localhost',
+          server: {
+            baseDir: "./web/*html"
+        }
+    });
+});
 /**
  * Minify and combine CSS files, including Bootstrap
 */
@@ -54,6 +66,12 @@ gulp.task('default', function() {
  * Watch asset files for changes. First runs default task before starting watches
  */
 gulp.task('watch', function() {
+        browserSync.init({
+          server: {
+              baseDir: "./web/"
+          }
+        });
+        
         gulp.run('default');
 
         gulp.watch('src/css/**/*.css', function(event) {
@@ -70,4 +88,5 @@ gulp.task('watch', function() {
             console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
             gulp.run('images');
         });
+        gulp.watch("web/*.html").on("change", reload);
 });
