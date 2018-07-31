@@ -181,11 +181,13 @@ footer {
     font-family: calluna-sans;
     font-weight: 300;
     font-style: normal;
-    font-size: .9rem;
+    font-size: 1.1rem;
     letter-spacing: .12em;
     text-transform: capitalize;
     width: 100%;
     color: #222;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
 }
 
 .show-index-navigation, .index-item-navigation {
@@ -198,7 +200,7 @@ footer {
 .index-link-style-list-stacked, .index-nav-link {
     display: block;
     padding: .25em 0;
-    margin-bottom: .5em
+    margin-bottom: .5em;
     color: #222;
     line-height: normal;
 }
