@@ -134,6 +134,8 @@ b, strong {
   justify-content: center;
   align-items: flex-start;
   margin-top: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .leaders {
