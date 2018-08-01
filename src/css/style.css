@@ -7,7 +7,6 @@ body {
   /*STYLE FROM SP*/
     font-family: calluna-sans, sans-serif;
     font-weight: 300;
-
     font-size: 18px;
     line-height: 1.8em;
     letter-spacing: .09em;
@@ -55,28 +54,40 @@ img {
 
 h1 {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin: 2rem 0;
   font-weight: lighter;
   text-align: center;
 }
 
 h2 {
   font-size: 4rem;
-  margin-bottom: 1rem;
+  margin: 2rem 0;
   text-transform: uppercase;
   text-align: center;
-
   /**Styles from SP*/
-    font-family: calluna-sans;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 1.2em;
-    letter-spacing: .17em;
-    color: #222;
+  font-family: calluna-sans;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.2em;
+  letter-spacing: .17em;
+  color: #222;
 }
 
 
 h3 {
+  font-size: 2.55rem;
+  text-align: center;
+  font-family: calluna-sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 1.6em;
+  letter-spacing: .12em;
+  text-transform: none;
+  color: #222;
+  margin:2rem 0
+}
+h4 {
   font-size: 1.75rem;
   text-transform: uppercase;
 }
@@ -88,6 +99,18 @@ p {
 b, strong {
     font-weight: bold;
 }
+
+.fact {
+  font-family: calluna-sans;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 1.38px;
+  font-size: 1.4rem;
+  color:rgb(184, 184, 184);
+}
+
 /**Flex Styles**/
 
 .flex {
