@@ -78,12 +78,12 @@ h2 {
 
 
 h3 {
-  font-size: 2.55rem;
+  font-size: 2.75rem;
   text-align: center;
   font-family: "calluna-sans", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 50px;
+  /*font-size: 50px;*/
   line-height: 1.6em;
   letter-spacing: .12em;
   text-transform: none;
@@ -197,28 +197,7 @@ blockquote {
 
 }
 
-@media screen and (max-width:1600px) and (min-width:961px) {
-  .box {
-    flex-basis: 400px;
-  }
-}
 
-@media screen and (max-width:960px) and (min-width:768px) {
-  .box {
-    flex-basis: 250px;
-  }
-}
-@media screen and (max-width:767px) and (min-width:480px) {
-  .box {
-    flex-basis: 250px;
-  }
-}
-
-@media screen and (max-width:479px) {
-  .box {
-    flex-basis: 160px;
-  }
-}
 
 /***Footer**/
 
@@ -298,3 +277,56 @@ footer {
 .font-light { font-weight: 300; }
 .font-larger { font-size: 18px; }
 .text-muted { color: #989898; }
+
+/*****MEDIA QUERIES*******/
+@media screen and (max-width:1600px) and (min-width:961px) {
+  .box {
+    flex-basis: 400px;
+  }
+  h1 {  font-size: 2.75rem;  }
+  h2 {  font-size: 3.5rem;  }
+  h3 {  font-size: 2.25rem;  }
+  h4 {  font-size: 1.35rem;  }
+
+
+}
+
+@media screen and (max-width:960px) and (min-width:768px) {
+  .box {
+    flex-basis: 250px;
+  }
+  h1 {  font-size: 2.35rem;  }
+  h2 {  font-size: 3rem;  }
+  h3 {  font-size: 1.75rem;  }
+  h4 {  font-size: 1.15rem;  }
+
+  .fact {  font-size: 1.4rem;  }
+}
+@media screen and (max-width:767px) and (min-width:480px) {
+  .box {
+    flex-basis: 250px;
+  }
+  h1 {  font-size: 2.15rem;  }
+  h2 {  font-size: 2.75rem;  }
+  h3 {  font-size: 1.75rem;  }
+  h4 {  font-size: 1.15rem;  }
+
+  .fact {  font-size: 1.4rem;  }
+}
+
+@media screen and (max-width:479px) {
+  .box {
+    flex-basis: 160px;
+  }
+  h1 {  font-size: 2rem;  }
+  h2 {  font-size: 2.5rem;  }
+  h3 {  font-size: 1.45rem;  }
+  h4 {  font-size: 1rem;  }
+  .fact {  font-size: 1.2rem;  }
+  .width-85 {
+    width: 95%;
+  }
+  .width-75 {
+    width: 90%;
+  }
+}
